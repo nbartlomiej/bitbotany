@@ -8,41 +8,54 @@
         font-family: "Helvetica", "Arial", "sans-serif";
         text-align: center;
         line-height: 30px;
-        background: url('flower.jpg');
-        background-size: cover;
         margin: 0px;
         padding: 0px;
+        background: url('flower.jpg');
+        background-size: cover;
       }
 
       div {
-        width: 400px;
-        height: 400px;
+        width: 290px;
+        height: 290px;
+        /* margin: 20px auto 0px; */
         position: absolute;
-        left: 50px;
-        top: 50px;
-        box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.4) inset;
+        top: 40px;
+        left: 10%;
+        /* box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.4) inset */
+        box-shadow: 0px 0px 100px 50px rgba(30,30,30,0.5);
         padding: 20px 20px;
-        background: rgba(245, 245, 245, 1.8);
+        background: rgba(245, 245, 245, 0.8);
         text-shadow: 0px 1px #FFF;
         color: #222;
-        border-radius: 400px;
+        /* border: 10px solid rgba(255,255,255,0.5); */
+        /* border: 1px solid white; */
+        /* border-radius: 250px; */
       }
 
       h1 {
         font-weight: normal;
         font-size: 36px;
-        margin-top: 90px;
-        margin-bottom: 40px;
+        margin-top: 50px;
+        margin-bottom: 30px;
       }
 
       p {
         font-size: 20px;
       }
 
+      p.primary {
+        text-shadow: 0px 1px 0px #FFF;
+      }
+
+      p.secondary {
+        color: #aaa;
+        text-shadow: none;
+      }
+
       a {
         display: block;
-        font-size: 20px;
-        margin-top: 70px;
+        font-size: 15px;
+        margin-top: 15px;
         color: #000;
         text-decoration: none;
       }
@@ -52,8 +65,7 @@
   <body>
     <div>
       <h1>bitbotany</h1>
-      <p>Full-stack Rails and JavaScript consulting.</p>
-      <p>Custom, pretty, thriving web applications.</p>
+      <p>Custom, pretty, thriving <br/> web applications.</p>
       <a href="mailto: hey@bitbotany.com">contact@bitbotany.com</a>
     </div>
   </body>
