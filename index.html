@@ -27,11 +27,19 @@
         position: absolute;
         top: 40px;
         left: 10%;
-        box-shadow: 0px 0px 100px 50px rgba(30,30,30,0.5);
+        box-shadow: 0px 0px 70px 25px rgba(30,30,30,0.4);
         padding: 20px 20px;
         background: rgba(245, 245, 245, 0.8);
         text-shadow: 0px 1px #FFF;
         color: #222;
+
+        background: -moz-linear-gradient(top, rgba(188,255,178,0.62) 0%, rgba(207,255,104,0.63) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(188,255,178,0.62)), color-stop(100%,rgba(207,255,104,0.63))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(188,255,178,0.62) 0%,rgba(207,255,104,0.63) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(188,255,178,0.62) 0%,rgba(207,255,104,0.63) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(188,255,178,0.62) 0%,rgba(207,255,104,0.63) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(188,255,178,0.62) 0%,rgba(207,255,104,0.63) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ebcffb2', endColorstr='#a1cfff68',GradientType=0 ); /* IE6-9 */
       }
 
       h1 {
